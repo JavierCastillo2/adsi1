@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 Route::get('layouts.enlace', function () {
     return view('enlace');
-});   
-Route::get('index', function () {
+});
+Route::get('/', function () {
     return view('index');
 });
 Route::get('about', function () {
